@@ -14,7 +14,7 @@ const Main = () => {
             Architecto, ipsa.
           </p>
 
-          <Button text={"Login"} class={"btn-outline-info"} />
+          <Button text={"Login"} class={"btn-outline-info"} link="/login" />
         </div>
       </div>
     </>
