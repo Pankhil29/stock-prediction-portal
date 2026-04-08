@@ -21,9 +21,13 @@ const Header = () => {
           Stock Prediction Portal
         </Link>
         {isLoggedIn ? (
-          <button className="btn btn-danger" onClick={handleLogout}>
-            Logout
-          </button>
+          <div>
+            <Button text={"Dashboard"} class={" btn-info"} link="/dashboard" />
+            &nbsp;
+            <button className="btn btn-danger" onClick={handleLogout}>
+              Logout
+            </button>
+          </div>
         ) : (
           <div>
             <Button text={"Login"} class={" btn-outline-info"} link="/login" />
